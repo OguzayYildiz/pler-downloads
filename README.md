@@ -1,13 +1,19 @@
-# PLER downloads
+# PLER downloads — free beta0.9.21
 
-Free Windows desktop beta for local Claude Code and Codex records. No PLER account or payment is required.
+[Windows installer](https://pler-local-usage.oguzay5555.chatgpt.site/downloads/PLER-Setup-0.9.21.exe) · [Portable ZIP](https://pler-local-usage.oguzay5555.chatgpt.site/downloads/PLER-0.9.21-windows-x64.zip) · [English](https://pler-local-usage.oguzay5555.chatgpt.site/) · [Türkçe](https://pler-local-usage.oguzay5555.chatgpt.site/tr/)
 
-[Download PLER 0.9.11 for Windows](https://pler-local-usage.oguzay5555.chatgpt.site/downloads/PLER-0.9.11-windows-x64.zip) · [English website](https://pler-local-usage.oguzay5555.chatgpt.site/) · [Türkçe](https://pler-local-usage.oguzay5555.chatgpt.site/tr/)
+Close PLER and run **PLER-Setup-0.9.21.exe**. It installs for your user account and opens; use Start or the desktop shortcut afterwards. No administrator rights, separate Python, PLER account or payment. Windows Settings → Apps removes the app and keeps saved history by default. Deleting history is a separate explicit choice.
 
-Extract the entire ZIP into a new folder and open **PLER.exe**. Python and the desktop runtime are included. Use **PLER-Demo.cmd** for invented records. Close the window to stop the app. The first upgrade from 0.2.31 or earlier is manual into a new folder; keep a checked private backup.
+For the portable edition extract the whole ZIP into a new folder and open **PLER.exe**. **PLER-Demo.cmd** opens invented records. Compatible desktop clients can use in-app updates; keep a checked private backup. The optional Python wheel is the terminal/browser edition.
 
-Files ending in `.partNN` in Releases are delivery pieces used by the website, not separate installers. Use the Windows download link above for the complete ZIP. This repository contains distribution files and this README, not the private product source repository.
+PLER’i kapatıp **PLER-Setup-0.9.21.exe** dosyasını çalıştır. Kullanıcı hesabına kurulur; sonra Başlat veya masaüstü kısayolunu kullan. Kaldırırken geçmiş varsayılan olarak korunur. ZIP seçeneğinde paketin tamamını çıkarıp PLER.exe aç. Beta ücretsizdir; PLER hesabı gerekmez.
 
-Windows ZIP: 169550182 bytes. SHA-256: `62a704f08a155a85dbbc0c389f99024e49bbf1bed2ff2a3a8b7c1f9d94056f85`.
+This is a distribution-only repository; application source remains private. `.partNN` assets are website delivery pieces, not separate installers. Use the complete website downloads above. Releases include delivery pieces, the optional Python wheel, signed update metadata and checksums. Previous release filenames and bytes are preserved.
 
-The executable is unsigned. Clean-Windows and real-user acceptance remain pending. Scope, usage interpretation and privacy limits are included in Help. Support: plersolutions1st@gmail.com.
+| File | Bytes | SHA-256 |
+| --- | ---: | --- |
+| PLER-Setup-0.9.21.exe | 169755136 | `89c2d6f9434cb08c08c60ddb9d9d76694100d42c537891d41b9956b138bb60c6` |
+| PLER-0.9.21-windows-x64.zip | 169587230 | `478b5a31ff1ccd8ea05dded0c27b3db98468366a7d2cbc3d6e2e5830cf9d9250` |
+| pler-0.9.21-py3-none-any.whl | 969794 | `cada245473622289a0f80924ab510ec3c658cbe17edc6cd01b56c1173b950fd9` |
+
+Windows binaries are not Authenticode-signed. Clean-Windows and real-user acceptance remain pending. API price equivalent is not a bill; provider account limits and your own usage alerts are separate. Agent records stay local. Support: plersolutions1st@gmail.com.
